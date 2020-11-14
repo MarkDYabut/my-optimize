@@ -100,18 +100,18 @@ export default function Template({ data, pageContext }) {
         />
         <hr />
 
-        {next && (
+        {prev && (
           <>
-            <Link to={next.frontmatter.path} className="btn-link">
+            <Link to={prev.frontmatter.path} className="btn-link">
               <Button text="Next Article" />
             </Link>
             <br />
           </>
         )}
 
-        {prev && (
+        {next && (
           <>
-            <Link to={prev.frontmatter.path} className="btn-link">
+            <Link to={next.frontmatter.path} className="btn-link">
               <Button text="Previous Article" />
             </Link>
             <br />

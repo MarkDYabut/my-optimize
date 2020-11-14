@@ -14,8 +14,8 @@ export default ({ data }) => {
   return (
     <>
       {/* <Seo /> */}
-      <h1>Focus</h1>
-      <p> A collection of thoughts</p>
+      <h1>Optimize</h1>
+      <p> A collection of systems</p>
       {allMarkdownRemark.edges.map(({ node }) => (
         <BlogItem
           fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
@@ -39,7 +39,7 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: ASC }
       limit: 3
     ) {
       totalCount
