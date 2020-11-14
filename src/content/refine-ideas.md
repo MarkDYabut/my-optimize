@@ -40,7 +40,7 @@ I created my own philosophy when it came to the status of my ideas inside my ref
 1. No status
 2. Consumed
 3. Synthesized
-4. Implemented → : implementation
+4. Implemented
 
 ### Consume
 
